@@ -50,17 +50,21 @@ const SignIn = () => {
           as={motion.button}
           colorScheme="twitter"
           variant={"outline"}
-          fontSize="1.5rem"
           whileHover={{ scale: 1.2 }}
+          boxShadow={"dark-lg"}
           onClick={() => {
             signInWithGoogle();
           }}
         >
-          SignUp with Google!
+          <p className="text-xl text-amber-900">Sign Up With Google!</p>
         </Button>
         {sessionStorage.getItem("emailVerified") && (
           <Modal isOpen={isOpen} onClose={onClose} size={"md"}>
-            <ModalOverlay />
+            <ModalOverlay
+              bg="none"
+              backdropFilter={"auto"}
+              backdropBlur={"5px"}
+            />
             <ModalContent>
               <ModalHeader>
                 Hello, {sessionStorage.getItem("firstName")}
