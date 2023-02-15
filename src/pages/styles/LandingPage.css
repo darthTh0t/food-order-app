@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,500;1,600&display=swap");
+
+.landingPage {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  overflow: hidden !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingText {
+  display: flex;
+  flex-direction: row;
+}
+
+.landingText > h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: -5px;
+  color: rgba(233, 130, 164, 0.745);
+  fill: white;
+  display: flex;
+  justify-content: center;
+  font-size: 7rem;
+  text-shadow: -5px 3px 5px black;
+}
