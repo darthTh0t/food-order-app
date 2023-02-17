@@ -7,6 +7,7 @@ import {
   CartPage,
   ContactPage,
   AccountDetails,
+  ErrorPage,
 } from "./pages";
 import {
   createBrowserRouter,
@@ -19,7 +20,7 @@ import RouteLayout from "./layout/RouteLayout";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<RouteLayout />}>
+      <Route path="/" element={<RouteLayout />} errorElement={<ErrorPage />}>
         <Route index element={<LandingPage />} />
         <Route path="/order" element={<RestaurantPage />} />
         <Route path="/cart" element={<CartPage />} />
