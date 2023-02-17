@@ -65,13 +65,13 @@ const Header = () => {
           >
             {headerLinks.map((link) => (
               <li
-                key={link.icon}
+                key={link.path}
                 style={{
                   padding: "0 1.5rem",
                   cursor: "pointer",
                 }}
               >
-                <motion.div whileHover={{ scale: 1.5, color: "azure" }}>
+                <motion.div whileHover={{ scale: 1.5 }}>
                   <Link to={link.path}>{link.icon}</Link>
                 </motion.div>
               </li>
