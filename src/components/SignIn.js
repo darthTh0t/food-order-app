@@ -52,6 +52,7 @@ const SignIn = () => {
           variant={"outline"}
           whileHover={{ scale: 1.2 }}
           boxShadow={"dark-lg"}
+          py={2}
           onClick={() => {
             signInWithGoogle();
           }}

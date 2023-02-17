@@ -1,0 +1,7 @@
+.logoName {
+  color: beige;
+}
+
+.logoName > h3 {
+  letter-spacing: -1.5px;
+}
