@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: auto;
+  width: 40%;
   margin: 0 auto;
   align-items: center;
   border-radius: 5px 10px;
   background-color: #ffcaca;
   box-sizing: content-box;
   box-shadow: 10px 10px 50px #eba9a9, -10px -10px 30px #c77c70;
+  padding: 0.5rem 1rem;
 }
