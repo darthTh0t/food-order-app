@@ -16,6 +16,10 @@
   justify-content: space-between;
   background-color: #e96479;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 @media (min-width: 360px) and (max-width: 480px) {

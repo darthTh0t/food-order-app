@@ -11,9 +11,11 @@ const RestaurantDetails = (props) => {
       whileHover={{ scale: 1.05, cursor: "pointer" }}
       className="restComp"
     >
-      <h1>Image</h1>
-      <h3>{props.name}</h3>
-      <p>{props.time}</p>
+      <img src={props.image} alt="food" />
+      <div className="textDetails">
+        <h2>{props.name}</h2>
+        <p>{props.time}</p>
+      </div>
     </motion.div>
   );
 };

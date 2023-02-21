@@ -35,6 +35,24 @@
             "name": "Hotel Welcome",
             "image": "https://images.pexels.com/photos/724291/pexels-photo-724291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "time": "45-60 mins"
+        },
+        {
+            "id": 106,
+            "name": "The Slurry's",
+            "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "time": "10-20 mins"
+        },
+        {
+            "id": 107,
+            "name": "Village Kitchen",
+            "image": "https://images.pexels.com/photos/769969/pexels-photo-769969.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "time": "40 mins"
+        },
+        {
+            "id": 109,
+            "name": "The Bunkers",
+            "image": "https://images.pexels.com/photos/9609848/pexels-photo-9609848.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "time": "30-40 mins"
         }
     ]
 }

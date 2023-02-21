@@ -2,12 +2,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   align-items: center;
   border-radius: 5px 10px;
   background-color: #ffcaca;
   box-sizing: content-box;
-  box-shadow: 10px 10px 50px #eba9a9, -10px -10px 30px #c77c70;
-  padding: 0.5rem 1rem;
+  box-shadow: 10px 10px 50px #f4e4e4, -10px -10px 30px #a9a2a0;
+  padding: 0 1rem 0.5rem 1rem;
+  position: relative;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 700;
 }
