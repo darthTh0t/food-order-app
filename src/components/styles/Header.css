@@ -1,7 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,500;1,600&display=swap");
+
 .logoName {
   color: beige;
 }
 
-.logoName > h3 {
+.logoText {
   letter-spacing: -1.5px;
+  font-size: 2.5rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.headerStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e96479;
+  align-items: center;
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .logoText {
+    font-size: 1.5rem;
+  }
 }

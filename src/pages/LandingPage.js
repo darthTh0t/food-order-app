@@ -1,7 +1,9 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import { motion } from "framer-motion";
 import "./styles/LandingPage.css";
-import SignIn from "../components/SignIn";
+// import SignIn from "../components/SignIn";
+
+const LazySignIn = lazy(() => import("../components/SignIn"));
 
 const LandingPage = () => {
   const landingText = "zwigato".split("");
@@ -22,9 +24,17 @@ const LandingPage = () => {
           </motion.h1>
         ))}
       </div>
-      <SignIn />
+      <Suspense fallback={<h3>Loading...</h3>}>
+        <LazySignIn />
+      </Suspense>
     </div>
   );
 };
+
+// function wait(time) {
+//   return new Promise((resolve) => {
+//     setTimeout(resolve, time);
+//   });
+// }
 
 export default LandingPage;

@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,400;1,500;1,600&display=swap");
+
+.rootDiv {
+  font-family: "Rubik", sans-serif;
+  background-color: #ffcaca !important;
+  height: 100vh;
+  width: 100vw;
+}
+
+.restDet {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: row;
+}

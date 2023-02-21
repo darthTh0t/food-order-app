@@ -24,21 +24,21 @@ const Header = () => {
       icon: <PersonIcon />,
     },
   ];
-  const styleLogo = {
-    fontFamily: `Josefin Sans`,
-    fontSize: "2.5rem",
-  };
+  // const styleLogo = {
+  //   fontFamily: `Josefin Sans`,
+  //   fontSize: "2.5rem",
+  // };
 
-  const headerStyle = {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "space-between",
-    backgroundColor: "#E96479",
-    alignItems: "center",
-  };
+  // const headerStyle = {
+  //   display: "flex",
+  //   flexDirection: "row",
+  //   justifyContent: "space-between",
+  //   backgroundColor: "#E96479",
+  //   alignItems: "center",
+  // };
   return (
     <>
-      <div style={headerStyle}>
+      <div className="headerStyle">
         <div
           className="logoName"
           style={{
@@ -48,8 +48,8 @@ const Header = () => {
           onClick={() => navigate("/order")}
         >
           <motion.h3
-            style={styleLogo}
             whileHover={{ scale: 1.05, type: "spring" }}
+            className="logoText"
           >
             zwigato
           </motion.h3>
